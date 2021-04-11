@@ -67,7 +67,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  color: white;
+  color: black;
 }
 
 .active-nav-title {
@@ -104,6 +104,7 @@ li {
   cursor: pointer;
   transition: opacity 100ms ease-in-out;
   height: 50px;
+  width: 200px;
 }
 
 .button:hover {
