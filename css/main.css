@@ -1,0 +1,235 @@
+/*
+  This file is used to style HTML included in multiple pages.
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap");
+:root {
+  /* BREAKPOINTS */
+  --breakpoint-tablet: 640px;
+  --breakpoint-laptop: 1024px; /* <----- main breakpoint */
+  --breakpoint-desktop: 1280px;
+
+  /* COLORS */
+  --primary-color: #de0d48;
+  --yellow: #d4c30d;
+  --purple: #722099;
+  --blue: #1b0dde;
+  --orange-dark: #c74b16;
+  --orange-light: #de950d;
+  --gray-50: #f9fafb;
+  --gray-100: #f3f4f6;
+  --gray-200: #e5e7eb;
+  --gray-300: #d1d5db;
+  --gray-400: #9ca3af;
+  --gray-500: #6b7280;
+  --gray-600: #4b5563;
+  --gray-700: #374151;
+  --gray-800: #1f2937;
+  --gray-900: #111827;
+
+  --border-radius: 4px;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+html,
+body {
+  min-height: 100vh;
+}
+
+.container {
+  padding: 20px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.header-container nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-container ul li {
+  margin-right: 8px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.active-nav-title {
+  border-bottom: var(--primary-color) solid 2px;
+  margin-bottom: -2px;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer-logo {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+img {
+  width: 375px;
+}
+
+li {
+  list-style: none;
+}
+
+/* BUTTONS */
+.button {
+  background-color: white;
+  padding: 12px 16px;
+  border-radius: var(--border-radius);
+  border: none;
+  color: black;
+  cursor: pointer;
+  transition: opacity 100ms ease-in-out;
+  height: 50px;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button-outlined {
+  background-color: transparent;
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  height: 50px;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: white;
+  margin-top: auto;
+}
+
+footer iframe {
+  width: 100%;
+  height: 250px;
+}
+footer p {
+  font-size: 14px;
+}
+
+.opening-hours-title {
+  font-weight: bold;
+  margin-top: 20px;
+  font-size: 16px;
+}
+.location-title {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+h3 {
+  margin-top: 20px;
+  font-weight: bold;
+  margin: 6px 0;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-top: 60px;
+}
+label {
+  font-weight: 600;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  background-color: #f3f4f6;
+  padding: 8px;
+  border-radius: var(--border-radius);
+  border: none;
+  border-color: black;
+}
+select,
+input {
+  -webkit-appearance: none;
+  height: 40px;
+}
+.select-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.select-container i {
+  position: absolute;
+  right: 0;
+  margin-right: 16px;
+  pointer-events: none;
+  color: var(--gray-600-);
+}
+
+.input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.input-container i {
+  position: absolute;
+  right: 0;
+  margin-right: 16px;
+  pointer-events: none;
+  color: var(--gray-600-);
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1152px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 1023px) {
+  .container.mobile-fluid {
+    padding: 0;
+  }
+
+  .header-container .buy-ticket-desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .header-container ul li {
+    margin-right: 16px;
+  }
+
+  .header-container .buy-ticket-mobile {
+    display: none;
+  }
+}
