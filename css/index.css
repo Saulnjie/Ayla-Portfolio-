@@ -11,6 +11,13 @@
     margin-bottom: 20px;
   }
 
+.footer {
+    margin-top: auto;
+    background-image: url(../img/footer-white.svg);
+    height: 33px;
+    width: 85px;
+  }
+
 
 .container {
     display: flex;
