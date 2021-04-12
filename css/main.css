@@ -94,6 +94,12 @@ li {
   list-style: none;
 }
 
+.logo {
+  background-image: url(../img/logo-black.svg);
+  height: 24px;
+  width: 135px;
+}
+
 .page-title {
 color: black;
 font-size: 22px;
