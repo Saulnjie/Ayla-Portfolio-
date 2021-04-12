@@ -94,6 +94,12 @@ li {
   list-style: none;
 }
 
+.page-title {
+color: black;
+font-size: 22px;
+font-weight:800;
+}
+
 /* BUTTONS */
 .button {
   background-color: white;
@@ -119,9 +125,10 @@ li {
 }
 
 footer {
-  background-color: var(--primary-color);
-  color: white;
   margin-top: auto;
+  background-image: url(../img/footer-white.svg);
+  height: 33px;
+  width: 85px;
 }
 
 footer iframe {

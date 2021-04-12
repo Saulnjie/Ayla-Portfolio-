@@ -24,3 +24,21 @@
     align-items: center;
     color: white;
   }
+
+  .logo {
+    background-image: url(../img/Rectangle\ 58.svg);
+    height: 33px;
+    width: 178px;
+  }
+
+  .landing-paragraph {
+    color: white;
+  }
+
+  .the-donut-title {
+    color: white;
+  }
+
+  .the-donut-landing-paragraph {
+    color: white;
+  }
