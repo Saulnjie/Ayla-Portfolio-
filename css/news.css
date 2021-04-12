@@ -1,5 +1,6 @@
 .news-card {
- 
+ display: flex;
+ flex-direction: column;
 }
 
 .news-date {
