@@ -2,7 +2,7 @@
   This file is used to style HTML included in multiple pages.
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
 :root {
   /* BREAKPOINTS */
   --breakpoint-tablet: 640px;
@@ -132,7 +132,7 @@ font-weight:800;
 
 footer {
   margin-top: auto;
-  background-image: url(../img/footer-black.svg);
+  background-image: url(../img/);
   height: 33px;
   width: 85px;
 }
