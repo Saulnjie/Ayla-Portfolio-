@@ -31,7 +31,8 @@
 }
 
 body {
-  font-family: "Rubik", sans-serif;
+  /* font-family: "Rubik","poppins", sans-serif; */
+  font-family: "poppins";
   display: flex;
   flex-direction: column;
 }
@@ -132,7 +133,7 @@ font-weight:800;
 
 footer {
   margin-top: auto;
-  background-image: url(../img/);
+  background-image: url(../img/footer-black.svg);
   height: 33px;
   width: 85px;
 }
