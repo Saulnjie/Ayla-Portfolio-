@@ -1,6 +1,11 @@
 .news-card {
  display: flex;
  flex-direction: column;
+ width:100%;
+}
+
+.news-card img {
+    width: 100%;
 }
 
 .news-date {
@@ -13,4 +18,11 @@
 
 .news-paragraph {
     color: #8F8F8F;
+}
+
+.news-card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+
 }
