@@ -52,6 +52,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-bottom: 60px;
 }
 
 .header-container nav {
@@ -105,6 +106,8 @@ li {
 color: black;
 font-size: 22px;
 font-weight:800;
+margin-bottom: 30px;
+margin-top: 15px;
 }
 
 /* BUTTONS */
@@ -136,6 +139,8 @@ footer {
   background-image: url(../img/footer-black.svg);
   height: 33px;
   width: 85px;
+  margin: auto;
+  margin-top: 60px;
 }
 
 footer iframe {

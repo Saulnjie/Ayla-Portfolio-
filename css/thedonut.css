@@ -1,23 +1,95 @@
-.donut.title{
+.donut-title{
     color:black;
+    font-size: 62px;
+    font-weight:600;
 }
 
 .donut-paragraph {
     color:#898989;
+    font-size: 16px;
+    font-weight: 300;
+    width:100%;
 }
 
 .donut-sub-title {
     color:#C4C4C4;
+    font-size: 18px;
+    font-weight:500 ;
 }
 
 .donut-order-paragraph {
     color:#595959;
+    font-size: 14px;
+    font-weight: 300;
+    width: 100%;
 }
 
 .order-donut-price {
 color: black;
+font-size: 22px;
+font-weight: 600;
 }
 
 .shipping-info {
     color:#6F6F6F;
+}
+
+.donut-banner {
+    width: 100%;
+}
+.donut-banner img {
+    width: 100%;
+}
+
+.donut-singles img {
+    width: 100%;
+}
+
+.shipping-price-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 77.2%;
+    margin-top: 15px;
+}
+
+.donut-container-overall-content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.donut-container-right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.donut-container-right img {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.donut-container-left {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.donut-info-container {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    font-size: 12px;
+    justify-content: space-between;
+    font-weight: 300;
+}
+
+.specifications {
+    font-weight: 600;
+}
+
+.purchase {
+    font-weight: 600;
 }
