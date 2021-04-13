@@ -46,6 +46,8 @@ body {
   padding: 20px;
   flex-direction: column;
   width: 100%;
+  justify-content: space-evenly;
+  height: 100%;
 }
 
 .header-container {
@@ -120,7 +122,8 @@ margin-top: 15px;
   cursor: pointer;
   transition: opacity 100ms ease-in-out;
   height: 50px;
-  width: 200px;
+  width: 150px;
+  margin-top: 15px;
 }
 
 .button:hover {
