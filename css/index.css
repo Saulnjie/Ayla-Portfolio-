@@ -106,11 +106,20 @@
     background-color:transparent;
     color: white;
   }
+  .mobile-header-container {
+    display: none;
+  }
 
   @media (max-width: 1023px) {
 
+    .header-container {
+      display: none;
+    }
 
-
+    .mobile-header-container {
+      display: inline-block;
+      width: 90%;
+    }
 
 
     .container.mobile-fluid {
