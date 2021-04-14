@@ -28,7 +28,7 @@
 .donut-color-toggle-container{
     display: flex;
     justify-content: space-between;
-    width: 7.8%;
+    width: 45px;
     margin-top: 15px;
 }
 .donut-color-toggle-black {
@@ -110,7 +110,6 @@ font-weight: 600;
     margin-top: 60px;
     height: 650px;
     object-fit: cover;
-
 }
 
 .donut-container-left {
@@ -130,15 +129,49 @@ font-weight: 600;
     align-self: baseline;
 }
 
-/* .donut-info-container ul li {
-    list-style:disc;
-    color: #595959;
-} */
 
 .specifications {
     font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
 
 .purchase {
     font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+
+@media (max-width: 1023px) {
+
+.donut-container-overall-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.donut-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+/* Hvordan få dette bilde over container left? */
+.donut-container-right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.donut-container-right img {
+    width: 100%;
+    margin-top: 60px;
+    height: 650px;
+    object-fit: cover;
+}
+
+
 }
