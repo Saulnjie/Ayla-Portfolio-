@@ -28,7 +28,6 @@
 .landing-donut-container {
   margin-left: 40%;
   margin-top: 5%;
-  height:40%;
   justify-content: space-between;
 }
 
@@ -51,7 +50,7 @@
     font-size: 22px;
     font-weight: 300;
     margin-left: 0%;
-    margin-top: 220px;
+    margin-top: 10%;
   }
 
   .the-donut-title {
