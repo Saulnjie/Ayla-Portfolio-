@@ -49,6 +49,7 @@ font-weight: 600;
 .shipping-info {
     color:#6F6F6F;
     font-size: 12px;
+    /* display: none; */
 }
 
 .donut-banner {
