@@ -49,7 +49,16 @@ font-weight: 600;
 .shipping-info {
     color:#6F6F6F;
     font-size: 12px;
-    /* display: none; */
+}
+
+.shipping-dropdown {
+    color: #595959;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    display: none;
+    overflow: hidden;
 }
 
 .donut-banner {
@@ -72,6 +81,16 @@ font-weight: 600;
     justify-content: space-between;
     width: 71%;
     margin-top: 15px;
+    cursor: pointer;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+}
+
+.shipping-dropdown-paragraph {
+    font-size: 14px;
+    color: #595959;
+    font-weight: 300;
 }
 
 .donut-container-overall-content {
