@@ -54,7 +54,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
 .header-container nav {
@@ -176,50 +176,7 @@ h3 {
   font-size: 14px;
   margin-top: 60px;
 }
-label {
-  font-weight: 600;
-}
 
-input,
-select,
-textarea {
-  width: 100%;
-  background-color: #f3f4f6;
-  padding: 8px;
-  border-radius: var(--border-radius);
-  border: none;
-  border-color: black;
-}
-select,
-input {
-  -webkit-appearance: none;
-  height: 40px;
-}
-.select-container {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-.select-container i {
-  position: absolute;
-  right: 0;
-  margin-right: 16px;
-  pointer-events: none;
-  color: var(--gray-600-);
-}
-
-.input-container {
-  position: relative;
-  display: flex;
-  align-items: center;
-}
-.input-container i {
-  position: absolute;
-  right: 0;
-  margin-right: 16px;
-  pointer-events: none;
-  color: var(--gray-600-);
-}
 
 @media (min-width: 1024px) {
   .container {
