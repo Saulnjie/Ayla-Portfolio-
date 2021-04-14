@@ -10,19 +10,29 @@
 
 .news-date {
     color: #8F8F8F;
+    font-size: 12px;
 }
 
 .news-title {
     color: black;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 .news-paragraph {
     color: #8F8F8F;
+    font-weight: 300;
+    font-size: 16px;
 }
 
 .news-card-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
+}
 
+.read-more-news {
+    font-weight: 400;
+    font-size: 16px;
+    color: black;
 }
