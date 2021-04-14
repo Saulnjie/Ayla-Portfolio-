@@ -14,14 +14,30 @@
 .donut-sub-title {
     color:#C4C4C4;
     font-size: 18px;
-    font-weight:500 ;
+    font-weight:400 ;
 }
 
 .donut-order-paragraph {
     color:#595959;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 300;
     width: 100%;
+}
+
+
+.donut-color-toggle-container{
+    display: flex;
+    justify-content: space-between;
+    width: 7.8%;
+    margin-top: 15px;
+}
+.donut-color-toggle-black {
+    font-size: 20px;
+}
+
+.donut-color-toggle-beige {
+    font-size: 20px;
+    color: #BCB0A3;
 }
 
 .order-donut-price {
@@ -49,7 +65,7 @@ font-weight: 600;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    width: 77.2%;
+    width: 76.4%;
     margin-top: 15px;
 }
 
@@ -81,9 +97,15 @@ font-weight: 600;
     display: flex;
     flex-direction: row;
     width: 85%;
-    font-size: 12px;
+    font-size: 14px;
     justify-content: space-between;
     font-weight: 300;
+    align-self: baseline;
+}
+
+.donut-info-container ul li {
+    list-style:disc;
+    color: #595959;
 }
 
 .specifications {

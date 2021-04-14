@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+   
 }
 .resume-chevron-container {
     display: flex;
@@ -24,6 +24,7 @@
     align-items: center;
     margin-top: 30px;
     margin-bottom: 5px;
+    border-bottom: #595959 1px solid;
 }
 
 .resume-title {
