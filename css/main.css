@@ -54,6 +54,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-bottom: 30px;
   /* margin-bottom: 30px; */
 }
 
@@ -84,15 +85,6 @@ body {
   font-weight: bold;
 }
 
-.footer-logo {
-  font-size: 20px;
-  color: white;
-  font-weight: bold;
-}
-
-img {
-  width: 375px;
-}
 
 li {
   list-style: none;
@@ -108,6 +100,7 @@ li {
 color: black;
 font-size: 22px;
 font-weight:600;
+margin-bottom: 15px;
 }
 
 /* BUTTONS */
@@ -138,19 +131,13 @@ font-weight:600;
 footer {
   margin-top: auto;
   background-image: url(../img/footer-black.svg);
-  height: 33px;
+  height: 34px;
   width: 85px;
   margin: auto;
-  margin-top: 60px;
+  margin-top: 30px;
+  margin-bottom: 15px;
 }
 
-footer iframe {
-  width: 100%;
-  height: 250px;
-}
-footer p {
-  font-size: 14px;
-}
 
 .opening-hours-title {
   font-weight: bold;
@@ -169,14 +156,6 @@ h3 {
   margin: 6px 0;
 }
 
-.footer-bottom {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  font-size: 14px;
-  margin-top: 60px;
-}
-
 
 @media (min-width: 1024px) {
   .container {
@@ -192,6 +171,16 @@ h3 {
 
   .container {
     max-width: 100%;
+  }
+
+  footer {
+    margin-top: auto;
+    background-image: url(../img/footer-black.svg);
+    height: 34px;
+    width: 85px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
   }
 
   .landing-donut-container {
@@ -231,6 +220,7 @@ h3 {
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 30px;
   }
 
   .header-container ul li {

@@ -13,8 +13,10 @@
 .footer {
     margin-top: auto;
     background-image: url(../img/footer-white.svg);
-    height: 33px;
+    height: 34px;
     width: 85px;
+    margin-top: 30px;
+    margin-bottom: 15px;
   }
 
 
@@ -111,7 +113,7 @@
   .active {
     background-color:transparent;
     color: white;
-  }
+  }  
   /* .mobile-header-container {
     display: none;
   } */
@@ -152,7 +154,7 @@
       color: white;
       font-size: 18px;
       font-weight: 300;
-      margin-top:50%;
+      margin-bottom:50%;
       margin-left: 0%;
     }
   
@@ -185,8 +187,10 @@
     .footer {
       margin-top: auto;
       background-image: url(../img/footer-white.svg);
-      height: 33px;
+      height: 34px;
       width: 85px;
+      margin-top: 30px;
+      margin-bottom: 15px;
     }
 
   }
