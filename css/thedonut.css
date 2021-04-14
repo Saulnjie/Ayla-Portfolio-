@@ -88,6 +88,9 @@ font-weight: 600;
 .donut-container-right img {
     width: 100%;
     margin-top: 60px;
+    height: 650px;
+    object-fit: cover;
+
 }
 
 .donut-container-left {
