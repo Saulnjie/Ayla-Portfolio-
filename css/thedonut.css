@@ -8,7 +8,7 @@
     color:#898989;
     font-size: 16px;
     font-weight: 300;
-    width:100%;
+    width:90%;
 }
 
 .donut-sub-title {
@@ -103,10 +103,10 @@ font-weight: 600;
     align-self: baseline;
 }
 
-.donut-info-container ul li {
+/* .donut-info-container ul li {
     list-style:disc;
     color: #595959;
-}
+} */
 
 .specifications {
     font-weight: 600;
