@@ -48,6 +48,7 @@ font-weight: 600;
 
 .shipping-info {
     color:#6F6F6F;
+    font-size: 12px;
 }
 
 .donut-banner {
@@ -55,6 +56,9 @@ font-weight: 600;
 }
 .donut-banner img {
     width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position:bottom;
 }
 
 .donut-singles img {
@@ -65,7 +69,7 @@ font-weight: 600;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    width: 76.4%;
+    width: 71%;
     margin-top: 15px;
 }
 
