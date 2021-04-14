@@ -80,10 +80,6 @@ body {
   margin-bottom: -2px;
 }
 
-.logo {
-  font-size: 20px;
-  font-weight: bold;
-}
 
 
 li {
@@ -91,9 +87,12 @@ li {
 }
 
 .logo {
-  background-image: url(../img/logo-black-real.svg);
-  height: 32px;
-  width: 178px;
+  /* background-image: url(../img/logo-black-real.svg); */
+  /* height: 32px;
+  width: 178px; */
+  font-size: 24px;
+  color: black;
+  font-weight: 300;
 }
 
 .page-title {

@@ -45,9 +45,12 @@
   }
 
   .logo {
-    background-image: url(../img/Rectangle\ 58.svg);
-    height: 35px;
-    width: 178px;
+    /* background-image: url(../img/Rectangle\ 58.svg); */
+    /* height: 35px;
+    width: 178px; */
+    font-size: 24px;
+    color: white;
+    font-weight: 300;
   }
 
   .landing-paragraph {
@@ -154,7 +157,7 @@
       color: white;
       font-size: 18px;
       font-weight: 300;
-      margin-bottom:50%;
+      margin-bottom:20%;
       margin-left: 0%;
     }
   
