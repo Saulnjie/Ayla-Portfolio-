@@ -2,7 +2,7 @@
   This file is used to style HTML included in multiple pages.
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&display=swap");
 :root {
   /* BREAKPOINTS */
   --breakpoint-tablet: 640px;
@@ -46,7 +46,6 @@ body {
   padding: 20px;
   flex-direction: column;
   width: 100%;
-  justify-content: space-evenly;
   height: 100%;
 }
 
@@ -54,8 +53,6 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-bottom: 30px;
-  /* margin-bottom: 30px; */
 }
 
 .header-container nav {
@@ -80,8 +77,6 @@ body {
   margin-bottom: -2px;
 }
 
-
-
 li {
   list-style: none;
 }
@@ -96,10 +91,10 @@ li {
 }
 
 .page-title {
-color: black;
-font-size: 22px;
-font-weight:600;
-margin-bottom: 15px;
+  color: black;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 15px;
 }
 
 /* BUTTONS */
@@ -137,7 +132,6 @@ footer {
   margin-bottom: 15px;
 }
 
-
 .opening-hours-title {
   font-weight: bold;
   margin-top: 20px;
@@ -154,7 +148,6 @@ h3 {
   font-weight: bold;
   margin: 6px 0;
 }
-
 
 @media (min-width: 1024px) {
   .container {
@@ -185,7 +178,7 @@ h3 {
   .landing-donut-container {
     margin-left: 50%;
     margin-top: 5%;
-    height:44%;
+    height: 44%;
     justify-content: space-between;
   }
   .landing-paragraph {
