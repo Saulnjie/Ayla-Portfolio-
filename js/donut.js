@@ -27,7 +27,6 @@ for (i = 0; i < acc.length; i++) {
 }
 
 
-
 const donutToggleButtons = document.querySelectorAll(".donut-color-toggle");
 
 donutToggleButtons.forEach(toggle => {
