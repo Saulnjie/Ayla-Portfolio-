@@ -1,0 +1,171 @@
+.ruby-title {
+  color: black;
+  font-size: 62px;
+  font-weight: 600;
+}
+
+.ruby-paragraph {
+  color: #898989;
+  font-size: 16px;
+  font-weight: 300;
+  width: 90%;
+}
+
+.ruby-sub-title {
+  color: #c4c4c4;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.ruby-order-paragraph {
+  color: #595959;
+  font-size: 16px;
+  font-weight: 300;
+  width: 100%;
+}
+
+.ruby-color-toggle-container {
+  display: flex;
+  justify-content: space-between;
+  width: 45px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.ruby-color-toggle-black {
+  font-size: 20px;
+}
+
+.ruby-color-toggle-beige {
+  font-size: 20px;
+  color: #bcb0a3;
+}
+
+.order-ruby-price {
+  color: black;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.shipping-info {
+  color: #6f6f6f;
+  font-size: 12px;
+}
+
+.shipping-dropdown {
+  color: #595959;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+.ruby-banner {
+  width: 100%;
+}
+.ruby-banner img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.ruby-singles img {
+  width: 100%;
+}
+
+.shipping-price-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 71%;
+  margin-top: 15px;
+  cursor: pointer;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+}
+
+.shipping-dropdown-paragraph {
+  font-size: 14px;
+  color: #595959;
+  font-weight: 300;
+  margin-top: 5px;
+}
+
+.ruby-container-overall-content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.ruby-container-right {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.ruby-container-right img {
+  width: 100%;
+  margin-top: 60px;
+  height: 650px;
+  object-fit: cover;
+}
+
+.ruby-container-left {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.ruby-info-container {
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  font-size: 14px;
+  justify-content: space-between;
+  font-weight: 300;
+  align-self: baseline;
+}
+
+.prototype {
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.prototype-paragraph {
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 1023px) {
+  .ruby-container-overall-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .ruby-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  /* Hvordan få dette bilde over container left? */
+  .ruby-container-right {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .ruby-container-right img {
+    width: 100%;
+    margin-top: 60px;
+    height: 650px;
+    object-fit: cover;
+  }
+}
