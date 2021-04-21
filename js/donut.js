@@ -1,7 +1,8 @@
 var acc = document.getElementsByClassName("shipping-price-container");
 var i;
 
-let slideShowImageIndex = 0;
+let slideshowImageIndex = 0;
+let activeDonutColor = "black"
 
 const donutImages = {
   black: "img/xefAuoHA.jpeg",
@@ -30,43 +31,55 @@ for (i = 0; i < acc.length; i++) {
 
 
 const donutToggleButtons = document.querySelectorAll(".donut-color-toggle");
+let slideShowImages = document.querySelectorAll(`.donut-container-right img.slideshow-${activeDonutColor}`);
+slideShowImages[slideshowImageIndex].style.display = "block";
+
+
+function setDonutColor(color) {
+  slideShowImages.forEach((image) => {
+    image.style.display = "none";
+  })
+
+  activeDonutColor = color;
+  slideShowImages = document.querySelectorAll(`.donut-container-right img.slideshow-${activeDonutColor}`)
+  slideshowImageIndex = 0;
+
+
+  slideShowImages[slideshowImageIndex].style.display = "block"
+}
 
 donutToggleButtons.forEach(toggle => {
   toggle.addEventListener("click", () => {
     if (toggle.classList.contains("donut-color-toggle-beige")) {
       donutImage.src = donutImages.beige
+      setDonutColor("beige")
     } else {
       donutImage.src = donutImages.black;
+      setDonutColor("black")
     }
   })
 })
 
-
-const slideShowImages = document.querySelectorAll(".donut-container-right img");
-slideShowImages.forEach((image, index) => {
-  if (index !== slideShowImageIndex) {
-    image.style.display = "none";
-  }
-})
 
 function cycleImages(direction) {
+  slideShowImages[slideshowImageIndex].style.display = "none";
+
   if (direction === "next") {
-    if (slideShowImageIndex > slideShowImages.length) {
-      slideShowImageIndex = 0;
+    if (slideshowImageIndex + 1 >= slideShowImages.length) {
+      slideshowImageIndex = 0;
     } else {
-      slideShowImageIndex++;
+      slideshowImageIndex++;
     }
   } else {
-    if (slideShowImageIndex < 0) {
-      slideShowImageIndex = slideShowImages.length;
+    if (slideshowImageIndex - 1 < 0) {
+      slideshowImageIndex = slideShowImages.length - 1;
     } else {
-      slideShowImageIndex--;
+      slideshowImageIndex--;
     }
   }
 
-  slideShowImages.forEach((image, index) => {
-    if (index !== slideShowImageIndex) {
-      image.style.display = "none";
-    }
-  })
+  slideShowImages[slideshowImageIndex].style.display = "block";
 }
+
+
+

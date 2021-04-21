@@ -55,6 +55,10 @@ body {
   width: 100%;
 }
 
+.header-container .logo {
+  height: 30px;
+}
+
 .header-container nav {
   display: flex;
   justify-content: space-between;
