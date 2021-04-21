@@ -46,7 +46,7 @@
 @media (max-width: 1023px) {
   .work-card-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 20px;
   }
 }
