@@ -1,6 +1,8 @@
 var acc = document.getElementsByClassName("shipping-price-container");
 var i;
 
+let slideShowImageIndex = 0;
+
 const donutImages = {
   black: "img/xefAuoHA.jpeg",
   beige: "img/9-G7b57w.jpeg"
@@ -38,3 +40,33 @@ donutToggleButtons.forEach(toggle => {
     }
   })
 })
+
+
+const slideShowImages = document.querySelectorAll(".donut-container-right img");
+slideShowImages.forEach((image, index) => {
+  if (index !== slideShowImageIndex) {
+    image.style.display = "none";
+  }
+})
+
+function cycleImages(direction) {
+  if (direction === "next") {
+    if (slideShowImageIndex > slideShowImages.length) {
+      slideShowImageIndex = 0;
+    } else {
+      slideShowImageIndex++;
+    }
+  } else {
+    if (slideShowImageIndex < 0) {
+      slideShowImageIndex = slideShowImages.length;
+    } else {
+      slideShowImageIndex--;
+    }
+  }
+
+  slideShowImages.forEach((image, index) => {
+    if (index !== slideShowImageIndex) {
+      image.style.display = "none";
+    }
+  })
+}
