@@ -46,6 +46,7 @@
   font-size: 24px;
   color: white;
   font-weight: 300;
+  margin-left: -7%;
 }
 
 .landing-paragraph {
@@ -150,7 +151,7 @@
     color: white;
     font-size: 18px;
     font-weight: 300;
-    margin-left: 0%;
+    margin-left: -5%;
   }
 
   .the-donut-title {

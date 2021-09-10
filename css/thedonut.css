@@ -40,6 +40,13 @@
   color: #bcb0a3;
 }
 
+.color-info {
+  font-size: 12px;
+  color: #6f6f6f;
+  margin-right: 8px;
+  margin-bottom: 20px;
+}
+
 .order-donut-price {
   color: black;
   font-size: 22px;
