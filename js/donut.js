@@ -5,13 +5,13 @@ let slideshowImageIndex = 0;
 let activeDonutColor = "black"
 
 const donutImages = {
-  black: "img/xefAuoHA.jpeg",
-  beige: "img/9-G7b57w.jpeg"
+  black: "img/black2.jpeg",
+  beige: "img/nature2.jpeg"
 }
 
 const donutImage = document.querySelector(".donut-image");
 
-donutImage.src = "img/xefAuoHA.jpeg"
+donutImage.src = "img/black2.jpeg"
 
 for (i = 0; i < acc.length; i++) {
   acc[i].addEventListener("click", function() {
