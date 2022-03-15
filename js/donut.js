@@ -2,19 +2,19 @@ var acc = document.getElementsByClassName("shipping-price-container");
 var i;
 
 let slideshowImageIndex = 0;
-let activeDonutColor = "black"
+let activeDonutColor = "black";
 
 const donutImages = {
-  black: "img/black2.jpeg",
-  beige: "img/nature2.jpeg"
-}
+  black: "img/nr. 3.jpg",
+  beige: "img/nr 4, lys.jpg",
+};
 
 const donutImage = document.querySelector(".donut-image");
 
-donutImage.src = "img/black2.jpeg"
+donutImage.src = "img/nr. 3.jpg";
 
 for (i = 0; i < acc.length; i++) {
-  acc[i].addEventListener("click", function() {
+  acc[i].addEventListener("click", function () {
     /* Toggle between adding and removing the "active" class,
     to highlight the button that controls the panel */
     this.classList.toggle("active");
@@ -29,37 +29,37 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
-
 const donutToggleButtons = document.querySelectorAll(".donut-color-toggle");
-let slideShowImages = document.querySelectorAll(`.donut-container-right img.slideshow-${activeDonutColor}`);
+let slideShowImages = document.querySelectorAll(
+  `.donut-container-right img.slideshow-${activeDonutColor}`
+);
 slideShowImages[slideshowImageIndex].style.display = "block";
-
 
 function setDonutColor(color) {
   slideShowImages.forEach((image) => {
     image.style.display = "none";
-  })
+  });
 
   activeDonutColor = color;
-  slideShowImages = document.querySelectorAll(`.donut-container-right img.slideshow-${activeDonutColor}`)
+  slideShowImages = document.querySelectorAll(
+    `.donut-container-right img.slideshow-${activeDonutColor}`
+  );
   slideshowImageIndex = 0;
 
-
-  slideShowImages[slideshowImageIndex].style.display = "block"
+  slideShowImages[slideshowImageIndex].style.display = "block";
 }
 
-donutToggleButtons.forEach(toggle => {
+donutToggleButtons.forEach((toggle) => {
   toggle.addEventListener("click", () => {
     if (toggle.classList.contains("donut-color-toggle-beige")) {
-      donutImage.src = donutImages.beige
-      setDonutColor("beige")
+      donutImage.src = donutImages.beige;
+      setDonutColor("beige");
     } else {
       donutImage.src = donutImages.black;
-      setDonutColor("black")
+      setDonutColor("black");
     }
-  })
-})
-
+  });
+});
 
 function cycleImages(direction) {
   slideShowImages[slideshowImageIndex].style.display = "none";
@@ -80,6 +80,3 @@ function cycleImages(direction) {
 
   slideShowImages[slideshowImageIndex].style.display = "block";
 }
-
-
-

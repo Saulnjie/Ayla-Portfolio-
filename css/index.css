@@ -1,6 +1,6 @@
 .full-screen-banner {
   height: 100vh;
-  background-image: url(../img/Group\ 45.jpg);
+  background-image: url(../img/forside\ 2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -36,7 +36,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  color: white;
+  color: black;
 }
 
 .logo {
@@ -50,20 +50,20 @@
 }
 
 .landing-paragraph {
-  color: white;
+  color: black;
   font-size: 22px;
   font-weight: 300;
   margin-left: -3%;
 }
 
 .the-donut-title {
-  color: white;
+  color: black;
   font-size: 42px;
   font-weight: 800;
 }
 
 .the-donut-landing-paragraph {
-  color: white;
+  color: black;
   font-weight: 300;
   font-size: 16px;
 }
@@ -121,6 +121,18 @@
       display: none;
     } */
 
+  .full-screen-banner {
+    height: 100vh;
+    background-image: url(../img/forside\ .jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
   .mobile-header-container {
     display: inline-block;
     width: 90%;
@@ -148,30 +160,30 @@
     justify-content: center;
   }
   .landing-paragraph {
-    color: white;
+    color: black;
     font-size: 18px;
     font-weight: 300;
     margin-left: -5%;
   }
 
   .the-donut-title {
-    color: white;
+    color: black;
     font-size: 32px;
     font-weight: 800;
   }
 
   .the-donut-landing-paragraph {
-    color: white;
+    color: black;
     font-weight: 300;
     font-size: 14px;
     margin-bottom: 5px;
   }
   .button {
-    background-color: white;
+    background-color: grey;
     padding: 12px 16px;
     border-radius: var(--border-radius);
     border: none;
-    color: black;
+    color: white;
     cursor: pointer;
     transition: opacity 100ms ease-in-out;
     height: 50px;
